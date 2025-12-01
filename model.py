@@ -24,4 +24,4 @@ y_pred = clf.predict(x_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
 
-joblib.dump(clf, "rf_model.sav")
+joblib.dump(clf, "knn_model.sav")
